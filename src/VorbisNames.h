@@ -1,0 +1,36 @@
+// stb_vorbis gives its functions external C linkage with no option to make
+// them static, so two libraries each carrying a copy would collide at link
+// time. Renaming every public function with this library's prefix, in the
+// one translation unit that compiles it, keeps the copies apart; miniaudio's
+// calls are renamed along with them. Not installed and not part of the
+// public API.
+
+#pragma once
+
+#define stb_vorbis_close opane_stb_vorbis_close
+#define stb_vorbis_decode_filename opane_stb_vorbis_decode_filename
+#define stb_vorbis_decode_frame_pushdata opane_stb_vorbis_decode_frame_pushdata
+#define stb_vorbis_decode_memory opane_stb_vorbis_decode_memory
+#define stb_vorbis_flush_pushdata opane_stb_vorbis_flush_pushdata
+#define stb_vorbis_get_comment opane_stb_vorbis_get_comment
+#define stb_vorbis_get_error opane_stb_vorbis_get_error
+#define stb_vorbis_get_file_offset opane_stb_vorbis_get_file_offset
+#define stb_vorbis_get_frame_float opane_stb_vorbis_get_frame_float
+#define stb_vorbis_get_frame_short opane_stb_vorbis_get_frame_short
+#define stb_vorbis_get_frame_short_interleaved opane_stb_vorbis_get_frame_short_interleaved
+#define stb_vorbis_get_info opane_stb_vorbis_get_info
+#define stb_vorbis_get_sample_offset opane_stb_vorbis_get_sample_offset
+#define stb_vorbis_get_samples_float opane_stb_vorbis_get_samples_float
+#define stb_vorbis_get_samples_float_interleaved opane_stb_vorbis_get_samples_float_interleaved
+#define stb_vorbis_get_samples_short opane_stb_vorbis_get_samples_short
+#define stb_vorbis_get_samples_short_interleaved opane_stb_vorbis_get_samples_short_interleaved
+#define stb_vorbis_open_file opane_stb_vorbis_open_file
+#define stb_vorbis_open_file_section opane_stb_vorbis_open_file_section
+#define stb_vorbis_open_filename opane_stb_vorbis_open_filename
+#define stb_vorbis_open_memory opane_stb_vorbis_open_memory
+#define stb_vorbis_open_pushdata opane_stb_vorbis_open_pushdata
+#define stb_vorbis_seek opane_stb_vorbis_seek
+#define stb_vorbis_seek_frame opane_stb_vorbis_seek_frame
+#define stb_vorbis_seek_start opane_stb_vorbis_seek_start
+#define stb_vorbis_stream_length_in_samples opane_stb_vorbis_stream_length_in_samples
+#define stb_vorbis_stream_length_in_seconds opane_stb_vorbis_stream_length_in_seconds

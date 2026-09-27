@@ -1,0 +1,176 @@
+[
+  {
+    "folder": "getting-started",
+    "title": "Getting started",
+    "pages": [
+      {
+        "file": "introduction",
+        "title": "Introduction"
+      },
+      {
+        "file": "installation",
+        "title": "Installation"
+      },
+      {
+        "file": "finding-files",
+        "title": "Finding files"
+      }
+    ]
+  },
+  {
+    "folder": "application",
+    "title": "The application",
+    "pages": [
+      {
+        "file": "the-application",
+        "title": "The application"
+      },
+      {
+        "file": "graphics-backends",
+        "title": "Graphics backends"
+      },
+      {
+        "file": "program-icon",
+        "title": "Your program's icon"
+      },
+      {
+        "file": "input",
+        "title": "Input"
+      },
+      {
+        "file": "interface-scale",
+        "title": "Interface scale"
+      },
+      {
+        "file": "textures",
+        "title": "Textures"
+      },
+      {
+        "file": "audio",
+        "title": "Audio"
+      },
+      {
+        "file": "hosting-a-world",
+        "title": "Hosting a world"
+      },
+      {
+        "file": "diagnostics",
+        "title": "Diagnostics and escape hatches"
+      }
+    ]
+  },
+  {
+    "folder": "interface",
+    "title": "Building an interface",
+    "pages": [
+      {
+        "file": "element-tree",
+        "title": "The element tree"
+      },
+      {
+        "file": "layout",
+        "title": "Layout"
+      },
+      {
+        "file": "widgets",
+        "title": "Built-in widgets"
+      },
+      {
+        "file": "keyboard-focus",
+        "title": "Keyboard focus"
+      },
+      {
+        "file": "popups-menus-dialogs",
+        "title": "Popups, menus, and dialogs"
+      },
+      {
+        "file": "containers",
+        "title": "Containers"
+      },
+      {
+        "file": "docking",
+        "title": "Docking"
+      },
+      {
+        "file": "lists-and-trees",
+        "title": "Lists and trees"
+      },
+      {
+        "file": "pointer-and-tooltips",
+        "title": "Pointer shapes and tooltips"
+      },
+      {
+        "file": "text-and-fonts",
+        "title": "Text and fonts"
+      },
+      {
+        "file": "animating-values",
+        "title": "Animating a value"
+      }
+    ]
+  },
+  {
+    "folder": "styling",
+    "title": "Styling",
+    "pages": [
+      {
+        "file": "theming",
+        "title": "Theming"
+      },
+      {
+        "file": "your-own-look",
+        "title": "Designing your own look"
+      },
+      {
+        "file": "skins-and-theme-files",
+        "title": "Skins and theme files"
+      },
+      {
+        "file": "custom-windows",
+        "title": "A window of your own"
+      }
+    ]
+  },
+  {
+    "folder": "extending",
+    "title": "Extending opane",
+    "pages": [
+      {
+        "file": "drawing-directly",
+        "title": "Drawing directly"
+      },
+      {
+        "file": "custom-elements",
+        "title": "Writing a custom element"
+      },
+      {
+        "file": "custom-shaders",
+        "title": "Custom shaders"
+      }
+    ]
+  },
+  {
+    "folder": "reference",
+    "title": "Reference",
+    "pages": [
+      {
+        "file": "status",
+        "title": "Capabilities and limitations"
+      },
+      {
+        "file": "license",
+        "title": "License"
+      },
+      {
+        "file": "changelog",
+        "title": "Changelog",
+        "library": "CHANGELOG.md"
+      },
+      {
+        "file": "third-party-notices",
+        "title": "Third-party notices",
+        "library": "THIRD_PARTY_NOTICES.md"
+      }
+    ]
+  }
+]

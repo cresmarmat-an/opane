@@ -1,0 +1,89 @@
+{
+  "name": "opane",
+  "version": "0.0.1",
+  "site_url": "https://cresmarmat-an.github.io/opane/",
+  "repository": "https://github.com/cresmarmat-an/opane",
+  "examples": "https://github.com/cresmarmat-an/opane-examples",
+  "author": "Cresmar Mat-an",
+  "author_url": "https://cresmarmat-an.github.io/",
+  "description": "opane is an application, window, input, and interface library for C++20 on SDL3, with Direct3D 12, Vulkan, and Metal backends.",
+  "tagline": "Application, window, input, and interface library for C++20.",
+  "lead": "Open a window, build an interface, and style it the way you want. Direct3D 12, Vulkan, and Metal run the same HLSL shaders, compiled for each backend when you build.",
+  "accent": {
+    "light": {
+      "accent": "#0466EF",
+      "accent-ink": "#0353C4",
+      "accent-soft": "rgba(4,102,239,.12)",
+      "accent-glow": "rgba(4,102,239,.32)",
+      "grad-2": "#06B6D4",
+      "grad-3": "#132A4C"
+    },
+    "dark": {
+      "accent": "#5B9CF8",
+      "accent-ink": "#8AB9FA",
+      "accent-soft": "rgba(91,156,248,.16)",
+      "accent-glow": "rgba(91,156,248,.28)",
+      "grad-2": "#22D3EE",
+      "grad-3": "#A5C8FF"
+    }
+  },
+  "example_page": "getting-started/introduction",
+  "install_page": "getting-started/installation",
+  "example_title": "A window with a button",
+  "example_text": "One call starts the application; elements are added to a tree and laid out for you; the frame loop hands you the time step.",
+  "features_title": "What opane does",
+  "features": [
+    {
+      "icon": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"M10 4v4\"/><path d=\"M2 8h20\"/><path d=\"M6 4v4\"/>",
+      "title": "Application and window",
+      "text": "One call opens a window on Direct3D 12, Vulkan, or Metal and runs the frame loop, with input, textures, audio, and your program's own icon.",
+      "page": "application/the-application"
+    },
+    {
+      "icon": "<rect width=\"7\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\"/><rect width=\"7\" height=\"7\" x=\"14\" y=\"3\" rx=\"1\"/><rect width=\"7\" height=\"7\" x=\"14\" y=\"14\" rx=\"1\"/><rect width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\"/>",
+      "title": "Element tree and layout",
+      "text": "Stacks, flexible sizes, custom layouts, and scale-plus-offset positioning, with pointer capture, event bubbling, and keyboard focus.",
+      "page": "interface/element-tree"
+    },
+    {
+      "icon": "<rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M9 21V9\"/>",
+      "title": "Widgets and docking",
+      "text": "Buttons, text fields with undo, virtualized lists and trees, menus, dialogs, tooltips, and docking with tabs, splits, and saved layouts.",
+      "page": "interface/widgets"
+    },
+    {
+      "icon": "<circle cx=\"13.5\" cy=\"6.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\" fill=\"currentColor\"/><path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\"/>",
+      "title": "A look of your own",
+      "text": "Gradients, nine-slice images, soft shadows, frosted glass, per-state looks with smooth transitions, skins, and theme files that reload when saved.",
+      "page": "styling/your-own-look"
+    },
+    {
+      "icon": "<polyline points=\"4 7 4 4 20 4 20 7\"/><line x1=\"9\" x2=\"15\" y1=\"20\" y2=\"20\"/><line x1=\"12\" x2=\"12\" y1=\"4\" y2=\"20\"/>",
+      "title": "Text",
+      "text": "UTF-8 text that stays sharp at any size, kerning, mixed fonts and colours in one line, word wrapping, and the platform's text input.",
+      "page": "interface/text-and-fonts"
+    },
+    {
+      "icon": "<path d=\"m18 16 4-4-4-4\"/><path d=\"m6 8-4 4 4 4\"/><path d=\"m14.5 4-5 16\"/>",
+      "title": "Extending opane",
+      "text": "Write your own elements, put an HLSL shader on any element with hot reload, or draw directly with signed-distance primitives.",
+      "page": "extending/custom-elements"
+    }
+  ],
+  "sibling": {
+    "name": "ludifex",
+    "url": "https://cresmarmat-an.github.io/ludifex/",
+    "icon": "sibling.png",
+    "text": "ludifex adds 2D and 3D worlds: physics, a physically based renderer with optional ray tracing, animation, and sound. opane hosts a world full-window or inside a viewport in your layout, and the two share one device and one audio mix."
+  },
+  "example_repos": [
+    {
+      "name": "opane-examples",
+      "url": "https://github.com/cresmarmat-an/opane-examples"
+    },
+    {
+      "name": "opane-ludifex-examples",
+      "url": "https://github.com/cresmarmat-an/opane-ludifex-examples"
+    }
+  ]
+}
